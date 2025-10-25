@@ -1,0 +1,373 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .img {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+      color: white;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    .top-bar .left {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .top-bar .right {
+      font-size: 13px;
+      display: flex;
+      gap: 20px;
+
+    }
+
+    .top-bar a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+
+      justify-content: center;
+      padding: 15px 0;
+      background-color: rgba(0, 0, 0, 0.75);
+      gap: 25px;
+      font-weight: bold;
+      font-size: 18px;
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .mid {
+      text-align: center;
+      font-size: 108px;
+      font-weight: bolder;
+      position: relative;
+      top: 170px;
+      object-fit: cover;
+
+    }
+
+    .down {
+
+      text-align: center;
+      background-color: #a60000;
+      height: 60px;
+      position: relative;
+      top: 342px;
+    }
+
+    .down span {
+      font-size: 26px;
+      position: relative;
+      top: 4px;
+    }
+
+    .second {
+      margin-top: 100vh;
+      padding: 60px;
+      object-fit: cover;
+      background-color: white;
+
+
+    }
+
+    .box2 {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding-bottom: 40px;
+      font-size: 47px;
+      font-weight: bolder;
+    }
+
+    .box3 {
+      font-size: 28px;
+      text-align: center;
+      line-height: 1.6;
+      color: #00000078;
+      background-color: #fff;
+    }
+
+    .box-down {
+      color: white;
+      border: none;
+      position: relative;
+      left: 386px;
+      padding: 18px 20px;
+      font-weight: bolder;
+      width: 398px;
+      background-color: #b1040e;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1);
+      font-size: 21px;
+      top: 30px;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .page3 {
+      background-color: #f4f4f4;
+      padding: 45px;
+      height: 180vh;
+    }
+
+    .page3-top h2 {
+      text-align: center;
+      position: relative;
+      font-size: 36px;
+      font-weight: bolder;
+    }
+
+    .page3-top p {
+      padding: 26px;
+      font-size: 21px;
+      position: relative;
+      bottom: 4px;
+      text-align: center;
+    }
+
+    .page3-card1 img {
+      height: 325px;
+      width: 576px;
+      box-shadow: 0 0 10px rgba(23, 1, 1, 0.911), 0 0 5px rgba(0, 0, 0, .1);
+    }
+
+    .page3-card1 {
+      padding-right: 26px;
+      object-fit: cover;
+      height: 296px;
+      width: 576px;
+    }
+
+    .page3-card1 p {
+      position: relative;
+      top: 283px;
+      left: 22px;
+      font-size: 12px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .page3-card1 h1 {
+      position: relative;
+      top: 284px;
+      left: 18px;
+      font-size: 27px;
+      color: white;
+      font-weight: bold;
+    }
+
+
+
+    .card2 {
+      width: 266px;
+      height: 325px;
+      background: white;
+      position: relative;
+      top: 51px;
+      left: 17px;
+      box-shadow: 0 0 10px rgba(23, 1, 1, 0.911), 0 0 5px rgba(0, 0, 0, .1);
+    }
+
+    .card2 img {
+      width: 266px;
+      height: 188px;
+    }
+
+    .card2 p {
+      color: #820000;
+      position: relative;
+      top: 10px;
+      left: 17px;
+      font-weight: 600;
+      ;
+    }
+
+    .card2 h6 {
+      font-weight: 800;
+      font-size: 16px;
+      padding: 14px 17px;
+    }
+
+    .card3 {
+      width: 266px;
+      height: 325px;
+      background: white;
+      position: relative;
+      top: 51px;
+      left: 36px;
+      box-shadow: 0 0 10px rgba(23, 1, 1, 0.911), 0 0 5px rgba(0, 0, 0, .1);
+    }
+
+    .card3 img {
+      width: 266px;
+      height: 188px;
+    }
+
+    .card3 p {
+      color: #820000;
+      position: relative;
+      top: 10px;
+      left: 17px;
+      font-weight: 600;
+      ;
+    }
+
+    .card3 h6 {
+      font-weight: 800;
+      font-size: 16px;
+      padding: 14px 17px;
+    }
+
+
+
+
+
+
+    .container2 {
+      display: flex;
+    }
+
+    .card-A {
+      width: 266px;
+      height: 325px;
+      background: white;
+      position: relative;
+      top: 81px;
+      left: 2px;
+      box-shadow: 0 0 10px rgba(23, 1, 1, 0.911), 0 0 5px rgba(0, 0, 0, .1);
+    }
+
+    .card-A img {
+      width: 266px;
+      height: 188px;
+    }
+
+    .card-A p {
+      color: #820000;
+      position: relative;
+      top: 10px;
+      left: 17px;
+      font-weight: 600;
+      ;
+    }
+
+    .card-A h6 {
+      font-weight: 800;
+      font-size: 16px;
+      padding: 14px 17px;
+    }
+
+    .card-B {
+      width: 266px;
+      height: 325px;
+      background: white;
+      position: relative;
+      top: 81px;
+      left: 30px;
+      box-shadow: 0 0 10px rgba(23, 1, 1, 0.911), 0 0 5px rgba(0, 0, 0, .1);
+    }
+
+    .card-B img {
+      width: 266px;
+      height: 188px;
+    }
+
+    .card-B p {
+      color: #820000;
+      position: relative;
+      top: 10px;
+      left: 17px;
+      font-weight: 600;
+      ;
+    }
+
+    .card-B h6 {
+      font-weight: 800;
+      font-size: 16px;
+      padding: 14px 17px;
+    }
+
+
+    .page3-card-C img {
+      height: 325px;
+      width: 553px;
+      box-shadow: 0 0 10px rgba(23, 1, 1, 0.911), 0 0 5px rgba(0, 0, 0, .1);
+    }
+
+    .page3-card-C {
+      padding-right: 26px;
+      object-fit: cover;
+      height: 296px;
+      width: 576px;
+      position: relative;
+      left: 61px;
+      top: 28px;
+    }
+
+
+    .page3-card-C p {
+      position: relative;
+      top: 283px;
+      left: 22px;
+      font-size: 12px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .page3-card-C h1 {
+      position: relative;
+      top: 284px;
+      left: 18px;
+      font-size: 27px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .page3-down {
+      color: white;
+      border: none;
+      position: relative;
+      left: 386px;
+      padding: 18px 20px;
+      font-weight: bolder;
+      width: 398px;
+      background-color: #b1040e;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1);
+      font-size: 21px;
+      top: 145px;}
